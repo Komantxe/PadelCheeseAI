@@ -12,11 +12,11 @@ from general import postprocess
 
 SCRIPT_DIR = Path(__file__).parent
 
-VIDEO_PATH = SCRIPT_DIR / "input.mp4"   # input video here
-VIDEO_OUT = SCRIPT_DIR / "output_marked.mp4"              # annotated output
-MASK_OUT  = SCRIPT_DIR / "output_mask.mp4"                # mask video output
-BALL_MODEL_PATH = SCRIPT_DIR / "model_best.pt"              # TrackNet weights
-YOLO_MODEL_PATH = SCRIPT_DIR / "yolov8n.pt"                 # YOLO weights
+VIDEO_PATH = "input_extra_crop.mp4"   # input video here
+VIDEO_OUT  = "output_marked.mp4"      # annotated output
+MASK_OUT   = "output_mask.mp4"        # mask video output
+BALL_MODEL_PATH = SCRIPT_DIR / "model_best.pt" # TrackNet weights
+YOLO_MODEL_PATH = SCRIPT_DIR / "yolov8n.pt"    # YOLO weights
 
 # Runtime settings
 YOLO_CONF = 0.4
