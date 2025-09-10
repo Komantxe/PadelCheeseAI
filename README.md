@@ -32,9 +32,9 @@ pip install -r requirements.txt
     Open `track.py` and update:
 
 ``` python
-VIDEO_PATH = Path("videos/input.mp4")
-VIDEO_OUT  = Path("videos/output_marked.mp4")
-MASK_OUT   = Path("videos/output_mask.mp4")
+VIDEO_PATH = SCRIPT_DIR / "input.mp4" 
+VIDEO_OUT = SCRIPT_DIR / "output_marked.mp4"
+MASK_OUT  = SCRIPT_DIR / "output_mask.mp4"
 ```
 
 6.  **Run the script**:
