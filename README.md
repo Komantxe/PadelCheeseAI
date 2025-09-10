@@ -47,5 +47,5 @@ python track.py
 
 ## ✅ Output
 
--   Annotated video → `combined_marked.mp4`
--   Mask video → `combined_mask.mp4`
+-   Annotated video → `output_marked.mp4`
+-   Mask video → `output_mask.mp4`
