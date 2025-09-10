@@ -12,7 +12,7 @@ from general import postprocess
 
 SCRIPT_DIR = Path(__file__).parent
 
-VIDEO_PATH = "input_extra_crop.mp4"   # input video here
+VIDEO_PATH = "input.mp4"   # input video here
 VIDEO_OUT  = "output_marked.mp4"      # annotated output
 MASK_OUT   = "output_mask.mp4"        # mask video output
 BALL_MODEL_PATH = SCRIPT_DIR / "model_best.pt" # TrackNet weights
